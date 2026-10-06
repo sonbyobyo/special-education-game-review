@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "research_date": "2026-10-05",
-  "policy_note": "activation/pass_evidence_groups are v1 project routing and minimum-evidence policies, not additional statutory or WCAG requirements. They never establish semantic correctness or sufficient coverage.",
+  "policy_note": "Routing, evidence, scope and scenario policies are project review proposals, not additional statutory or WCAG requirements. Product and review-process evaluations are separate; structural validation never establishes semantic correctness or sufficient coverage.",
   "features": [
     "aac",
     "analytics",
@@ -75,9 +75,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G02",
@@ -102,7 +104,8 @@
         [
           "teacher"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G03",
@@ -111,7 +114,7 @@
       "적용조건": "문제, 정답, 수량, 관계, 절차를 제시",
       "분류": "공통",
       "근거지위": "프로젝트 검수 제안",
-      "검사방법": "문항별 자료, 수량, 정답, 판정, 지시를 대조",
+      "검사방법": "문항별 자료, 실제 구성·수량, 정답, 판정, 지시를 대조하고 과제에 맞는 오답·반례·회복 경로를 실행",
       "통과조건": "불일치 및 모호한 성공 판정이 없음",
       "예외": "창작형에 유일 정답을 요구하지 않음",
       "검증주체": "교사+검수자",
@@ -126,9 +129,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G04",
@@ -154,9 +159,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G05",
@@ -185,9 +192,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G06",
@@ -216,7 +225,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G07",
@@ -242,9 +252,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G08",
@@ -270,9 +282,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G09",
@@ -299,7 +313,8 @@
         [
           "learner"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G10",
@@ -325,9 +340,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G11",
@@ -354,7 +371,8 @@
         [
           "teacher"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "G12",
@@ -384,7 +402,8 @@
         [
           "teacher"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "C01",
@@ -409,7 +428,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "C02",
@@ -436,7 +456,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "C03",
@@ -464,7 +485,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "C04",
@@ -492,7 +514,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "C05",
@@ -517,7 +540,8 @@
         [
           "learner"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "C06",
@@ -542,7 +566,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A01",
@@ -567,7 +592,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A02",
@@ -576,7 +602,7 @@
       "적용조건": "드래그 활동",
       "분류": "조건부",
       "근거지위": "WCAG 2.5.7 AA",
-      "검사방법": "선택 후 목적지 누르기 등을 직접 포인터로 실행",
+      "검사방법": "선택 후 목적지 누르기 등을 직접 포인터로 실행하고 대상·목적지·수정 등 같은 기능을 사용자가 선택하는지 비교",
       "통과조건": "드래그 없이 같은 기능을 완료",
       "예외": "본질적 드래그 등 명시 예외; 키보드만으로 대체 통과하지 않음",
       "검증주체": "검수자",
@@ -594,7 +620,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A03",
@@ -621,7 +648,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A04",
@@ -648,7 +676,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A05",
@@ -675,7 +704,8 @@
         [
           "device"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A06",
@@ -702,7 +732,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A07",
@@ -727,7 +758,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A08",
@@ -754,7 +786,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A09",
@@ -781,7 +814,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A10",
@@ -810,7 +844,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A11",
@@ -838,7 +873,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "A12",
@@ -864,9 +900,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "S01",
@@ -893,7 +931,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "S02",
@@ -921,7 +960,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "S03",
@@ -949,7 +989,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "S04",
@@ -976,7 +1017,8 @@
         [
           "measurement"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "S05",
@@ -1003,7 +1045,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "S06",
@@ -1034,7 +1077,8 @@
         [
           "listening"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P01",
@@ -1062,7 +1106,8 @@
           "teacher",
           "learner"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P02",
@@ -1089,7 +1134,8 @@
         [
           "device"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P03",
@@ -1116,7 +1162,8 @@
         [
           "learner"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P04",
@@ -1143,7 +1190,8 @@
         [
           "teacher"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P05",
@@ -1168,7 +1216,8 @@
         [
           "learner"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P06",
@@ -1195,7 +1244,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P07",
@@ -1219,9 +1269,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "P08",
@@ -1246,7 +1298,8 @@
         [
           "learner"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R01",
@@ -1271,7 +1324,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R02",
@@ -1298,7 +1352,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R03",
@@ -1325,7 +1380,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R04",
@@ -1352,7 +1408,8 @@
         [
           "export"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R05",
@@ -1379,7 +1436,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R06",
@@ -1406,7 +1464,8 @@
         [
           "device"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R07",
@@ -1437,9 +1496,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R08",
@@ -1468,7 +1529,8 @@
         [
           "browser"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R09",
@@ -1495,9 +1557,11 @@
       "pass_evidence_groups": [
         [
           "source",
-          "browser"
+          "browser",
+          "document"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R10",
@@ -1524,7 +1588,8 @@
         [
           "rights"
         ]
-      ]
+      ],
+      "evaluation_target": "product"
     },
     {
       "criterion_id": "R11",
@@ -1533,7 +1598,7 @@
       "적용조건": "검수 결과 반환",
       "분류": "공통",
       "근거지위": "표준 및 인지 지침의 운영 적용",
-      "검사방법": "코드, 브라우저, 실기기, 학생 관찰의 증거표를 대조",
+      "검사방법": "제품 코드·문서, 브라우저, 실기기, 학생 관찰과 검수 기록의 증거표·검사 시나리오·확인/제외 범위를 대조",
       "통과조건": "통과, 수정 필요, 판정값 미확인, 해당 없음을 증거와 함께 반환",
       "예외": "기준안의 완성이 제품 사용 허가가 아님",
       "검증주체": "검수자",
@@ -1547,9 +1612,10 @@
       },
       "pass_evidence_groups": [
         [
-          "source"
+          "review_record"
         ]
-      ]
+      ],
+      "evaluation_target": "review_process"
     },
     {
       "criterion_id": "R12",
@@ -1558,7 +1624,7 @@
       "적용조건": "종합 사용 판정",
       "분류": "공통",
       "근거지위": "프로젝트 판정 제안",
-      "검사방법": "핵심 조작, 의사소통, 개인정보 결함별 영향을 대조",
+      "검사방법": "학습 내용, 핵심 조작, 의사소통, 개인정보 결함별 영향·발생 조건·대체 경로를 대조",
       "통과조건": "총점과 관계없이 핵심 결함 해결 상태와 대안을 명시",
       "예외": "법정 인증 또는 공식 교육평가 판정을 대체하지 않음",
       "검증주체": "교사+검수자",
@@ -1572,10 +1638,11 @@
       },
       "pass_evidence_groups": [
         [
-          "source",
-          "browser"
+          "review_record"
         ]
-      ]
+      ],
+      "evaluation_target": "review_process"
     }
-  ]
+  ],
+  "revision_date": "2026-10-06"
 }

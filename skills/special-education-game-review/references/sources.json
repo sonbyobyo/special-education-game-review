@@ -93,7 +93,9 @@
     "note": "Single-pointer non-drag alternative distinct from keyboard",
     "observed_at": "2026-10-05T08:01:56.388Z",
     "valid_at": "Source version recorded in anchor; accessed 2026-10-05",
-    "primary": true
+    "primary": true,
+    "rechecked_at": "2026-10-06",
+    "recheck_note": "Official SC 2.5.7 explanation rechecked: equivalent single-pointer functionality and keyboard requirements are assessed independently. Learning-action preservation is a separate project review proposal, not an added WCAG requirement."
   },
   {
     "id": "S09",
