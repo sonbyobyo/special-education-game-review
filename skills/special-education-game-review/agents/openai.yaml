@@ -1,0 +1,4 @@
+interface:
+  display_name: "특수교육 학습게임 검수"
+  short_description: "학습게임의 목표·접근성·의사소통·정보 보호를 증거에 따라 검수"
+  default_prompt: "$special-education-game-review로 이 학습게임의 적용 기준과 실제 증거를 확인하고 수정 사항과 미확인 항목을 정리해 줘."
